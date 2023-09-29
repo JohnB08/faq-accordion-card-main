@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="no">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | FAQ Accordion Card</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./index.js" defer></script>
+  </head>
+  <body>
+    <main class="main">
+      <div class="img">
+        <img
+          src="./images/illustration-woman-online-mobile.svg"
+          alt="Woman staring at a giant screen."
+        />
+      </div>
+      <h1>FAQ</h1>
+      <div class="accordioncontainer">
+        <div class="accordionwrapper">
+          <div class="accordionheader">
+            <label for="btn1" class="header"
+              ><p class="accHeader">How many team members can I invite?</p>
+              <img
+                class="arrow-image"
+                src="./images/icon-arrow-down.svg"
+                alt="arrow down icon" /></label
+            ><input type="radio" id="btn1" name="accordion" />
+          </div>
+          <div class="accordioncontent">
+            <p>
+              You can invite up to 2 additional users on the Free plan. There is
+              no limit on team members for the Premium plan.
+            </p>
+          </div>
+        </div>
+        <div class="accordionwrapper">
+          <div class="accordionheader">
+            <label for="btn2" class="header"
+              ><p class="accHeader">What is the maximum file upload size?</p>
+              <img
+                class="arrow-image"
+                src="./images/icon-arrow-down.svg"
+                alt="arrow down icon" /></label
+            ><input type="radio" id="btn2" name="accordion" />
+          </div>
+          <div class="accordioncontent">
+            <p>
+              What is the maximum file upload size? No more than 2GB. All files
+              in your account must fit your allotted storage space.
+            </p>
+          </div>
+        </div>
+        <div class="accordionwrapper">
+          <div class="accordionheader">
+            <label for="btn3" class="header"
+              ><p class="accHeader">How do I reset my password?</p>
+              <img
+                class="arrow-image"
+                src="./images/icon-arrow-down.svg"
+                alt="arrow down icon" /></label
+            ><input type="radio" id="btn3" name="accordion" />
+          </div>
+          <div class="accordioncontent">
+            <p>
+              Click “Forgot password” from the login page or “Change password”
+              from your profile page. A reset link will be emailed to you.
+            </p>
+          </div>
+        </div>
+        <div class="accordionwrapper">
+          <div class="accordionheader">
+            <label for="btn4" class="header"
+              ><p class="accHeader">Can I cancel my subscription?</p>
+              <img
+                class="arrow-image"
+                src="./images/icon-arrow-down.svg"
+                alt="arrow down icon" /></label
+            ><input type="radio" id="btn4" name="accordion" />
+          </div>
+          <div class="accordioncontent">
+            <p>
+              Yes! Send us a message and we’ll process your request no questions
+              asked.
+            </p>
+          </div>
+        </div>
+        <div class="accordionwrapper">
+          <div class="accordionheader">
+            <label for="btn5" class="header"
+              ><p class="accHeader">Do you provide additional support?</p>
+              <img
+                class="arrow-image"
+                src="./images/icon-arrow-down.svg"
+                alt="arrow down icon" /></label
+            ><input type="radio" id="btn5" name="accordion" />
+          </div>
+          <div class="accordioncontent">
+            <p>
+              Chat and email support is available 24/7. Phone lines are open
+              during normal business hours.
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </body>
+</html>
